@@ -25,7 +25,7 @@ flechaizquierda.addEventListener('click', () => {
 
 // Función para realizar el desplazamiento suave
 function smoothScroll(element, start, end) {
-    const duration = 500; // Duración en milisegundos
+    const duration = 500; 
     const startTime = performance.now();
 
     function animate(currentTime) {
