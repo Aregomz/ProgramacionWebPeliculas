@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="contenedor-carrusel">
                 <div class="carrusel" >
                <div class="pelicula">
-                <a href="###"><img src="${recientes.imagen}" alt=""> </a>
+                <a href="../vistas/detalles.html?id={$recientes.idPelicula}"><img src="${recientes.imagen}" alt=""> </a>
             </div>
             </div>
             </div>
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="contenedor-carrusel carrusel-segundo">
                     <div class="carrusel">
                         <div class="pelicula">
-                            <a href="###"><img src="${recientes.imagen}" alt=""> </a>
+                            <a href="../vistas/detalles.html?id={$recientes.idSeries}"><img src="${recientes.imagen}" alt=""> </a>
                         </div>
                         </div>
                         </div>    

@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="contenedor-carrusel carrusel-segundo">
                     <div class="carrusel">
                         <div class="pelicula">
-                            <a href="###"><img src="${amor.imagen}" alt=""> </a>
+                            <a href="$../vistas/detalles.html?id={$terror.idSeries}"><img src="${amor.imagen}" alt=""> </a>
                         </div>
                         </div>
                         </div>    
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="contenedor-carrusel carrusel-segundo">
                     <div class="carrusel">
                         <div class="pelicula">
-                            <a href="###"><img src="${amor.imagen}" alt=""> </a>
+                            <a href="../vistas/detalles.html?id={$amor.idSeries}"><img src="${amor.imagen}" alt=""> </a>
                         </div>
                         </div>
                         </div>    
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="contenedor-carrusel carrusel-tercero">
                     <div class="carrusel">
                         <div class="pelicula">
-                            <a href="###"><img src="${accion.imagen}" alt=""> </a>
+                            <a href="../vistas/detalles.html?id={$accion.idSeries}"><img src="${accion.imagen}" alt=""> </a>
                         </div>
                         </div>
                         </div>    
